@@ -1,1 +1,1 @@
-# csc_122_pet_grooming_with_inheritance
+# CSC 122 Pet Grooming With Polymorphism
