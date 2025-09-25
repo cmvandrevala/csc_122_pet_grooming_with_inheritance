@@ -1,9 +1,8 @@
 #include <iostream>
-#include "store.hpp"
-#include "cat.hpp"
-#include "dog.hpp"
 
-using namespace std;
+#include "src/store.hpp"
+#include "src/cat.hpp"
+#include "src/dog.hpp"
 
 int main()
 {
@@ -24,11 +23,11 @@ int main()
   csc_122_pet_salon.add_to_list(simon);
   csc_122_pet_salon.add_to_list(lucy);
 
-  cout << "Before Washing" << endl;
+  std::cout << "Before Washing" << std::endl;
   csc_122_pet_salon.get_grooming_list();
 
   csc_122_pet_salon.wash_pet();
 
-  cout << "After Washing" << endl;
+  std::cout << "After Washing" << std::endl;
   csc_122_pet_salon.get_grooming_list();
 }
