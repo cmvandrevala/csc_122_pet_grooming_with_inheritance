@@ -1,4 +1,4 @@
-# Pet Grooming WIth Inheritance
+# Pet Grooming With Inheritance
 
 In this project, we create a little pet-grooming app. It includes a list of pets that we want to groom along with functions to add a new pet and clean the next pet on the list.
 
